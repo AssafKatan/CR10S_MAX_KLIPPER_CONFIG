@@ -1,0 +1,3 @@
+Hello, I have made this file to use with klipper for the CR10S MAX, the marlin version of the printer is only 45X45 on the XY but the bed is 47X47CM on XY.
+So this option are made for you to be able to use the full size of the printer, Used it to print R2D2 dome in one print(46.4X46.4CM).
+When flashing the firmware to the board, compile for atmega2560 and use the stock settings, then you can use the make flash commend to flash the printer directly from the pi, or you can download the klipper.hex file using somekind of a remote acsess software like winscp and then flash the printer using something like Prusaslicer or something simillar.
